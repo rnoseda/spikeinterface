@@ -1,0 +1,13 @@
+neo>=0.11
+elephant>=0.10.0
+spikeinterface[full,widgets]>=0.95.1
+probeinterface>=0.2.11
+spikeinterface-gui>=0.4.1
+tridesclous>=1.6.6.1
+ephyviewer
+sortingview
+phy==2.0b5
+docker
+pynwb
+figurl-jupyter
+mountainsort4
