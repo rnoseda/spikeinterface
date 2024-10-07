@@ -31,4 +31,5 @@ dependencies:
     - spikeinterface[full,widgets]
     - spikeinterface-gui
     - tridesclous
+    - docker
     # - phy==2.0b5
