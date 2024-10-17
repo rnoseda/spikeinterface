@@ -1,0 +1,47 @@
+# run: conda env create --file environment.yml
+name: SI-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip>=21.0
+  # numpy 1.21 break numba which break tridesclous
+  - numpy==1.21
+  # joblib 1.2 is breaking hdbscan
+  - joblib==1.1
+  - tqdm
+  - pillow
+  - sphinx-gallery
+  - numpydoc
+  - matplotlib
+  - h5py
+  - pandas
+  - scikit-learn
+  - networkx
+  - pybind11>=2.2
+  - loky
+  - hdbscan
+  - numba
+  - jupyter
+  - pyqt=5.12.3
+  - pyqtgraph=0.12.4
+  - ipywidgets
+  - ipympl
+  #- pip:
+  # works for regular pip packages
+  #  - neo>=0.11
+  #  - elephant>=0.10.0
+  #  - spikeinterface[full,widgets]>=0.95.1
+  #  - probeinterface>=0.2.11
+  #  - spikeinterface-gui>=0.4.1
+  #  - tridesclous>=1.6.6.1
+  #  - ephyviewer
+  #  - sortingview
+  #  - phy==2.0b5
+  #  - docker
+  #  - pynwb
+  #  - figurl-jupyter
+  #  - mountainsort4
+#- pip:
+#    - -r requirements.txt
