@@ -32,4 +32,5 @@ dependencies:
     - spikeinterface-gui
     - tridesclous
     - docker
+    - sortingview
     # - phy==2.0b5
