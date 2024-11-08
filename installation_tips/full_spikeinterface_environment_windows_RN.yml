@@ -1,4 +1,4 @@
-name: Si_env2024
+name: Si_2024
 channels:
   - conda-forge
   - defaults
